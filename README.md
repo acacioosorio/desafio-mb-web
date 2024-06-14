@@ -47,3 +47,4 @@ npm run start
 - Não está nitido do que cada passo se trata
 - Poderia-se ter feito melhor uso do TypeScript
 - Melhoria para otimização de components e imports
+- Traduções e mensagens de validação de inputs
