@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '../fonts/fonts';
+
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+html,
+body,
+#app {
+	height: 100%;
+}
+
+body {
+	background: rgb(237, 160, 4);
+	background: linear-gradient(0deg, rgba(237, 160, 4, 1) 0%, rgba(254, 220, 96, 1) 30%);
+}
+
+.debug {
+	background-color: #000;
+	color: green;
+	position: fixed;
+	width: 300px;
+	height: 100vh;
+	left: 0;
+	top: 0;
+}
